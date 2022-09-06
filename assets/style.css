@@ -3,12 +3,11 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-  font-family: 'Fira Code';
+  font-family: "Fira Code";
   font-size: 18px;
   scroll-behavior: smooth;
 }
@@ -36,7 +35,6 @@ html {
   margin-left: -8px;
   margin-right: -8px;
 }
-
 .row::after {
   content: " ";
   display: block;
@@ -58,7 +56,7 @@ html {
 }
 
 .col-third {
-  width: calc(100% / 3);
+  width: 33.3333333333%;
 }
 
 .mt-8 {
@@ -87,7 +85,6 @@ html {
   margin-top: 16px;
   cursor: pointer;
 }
-
 .btn:hover {
   color: #000;
   background-color: #ccc;
@@ -105,15 +102,9 @@ html {
 }
 
 #nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   display: inline-block;
 }
 
@@ -140,17 +131,10 @@ html {
   line-height: 46px;
   padding: 0px 20px;
   display: inline-block;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 #nav li a:hover {
   color: #333;
   background-color: #333;
@@ -167,8 +151,7 @@ html {
   position: absolute;
   min-width: 160px;
   background-color: black;
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #nav .subnav a {
@@ -181,15 +164,9 @@ html {
 #nav .nav-arroww-down {
   width: 50%;
   margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
 }
 
@@ -202,7 +179,6 @@ html {
   float: right;
   display: none;
 }
-
 #header .search-button:hover .menu-icon, #header .mobile-menu-button:hover .menu-icon {
   cursor: pointer;
   background-color: #f44336;
@@ -227,11 +203,11 @@ html {
   position: absolute;
   bottom: 47px;
   /*     left: 50%;
-    transform: translateX(-50%); */
+      transform: translateX(-50%); */
   text-align: center;
   width: 100%;
   /*     right: 0;
-    left: 0; */
+      left: 0; */
 }
 
 #slider .text-heading {
@@ -336,7 +312,6 @@ html {
   width: 100%;
   display: block;
 }
-
 .place-img:hover {
   opacity: 0.6;
 }
@@ -369,21 +344,13 @@ html {
   right: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.4);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   display: none;
 }
 
 .modal.open {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -400,15 +367,9 @@ html {
 header.modal-header {
   background-color: #009688;
   height: 130px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   font-size: 30px;
   color: #fff;
 }
@@ -426,7 +387,6 @@ header.modal-header {
   cursor: pointer;
   opacity: 0.9;
 }
-
 .modal-close:hover {
   opacity: 1;
 }
@@ -460,7 +420,6 @@ header.modal-header {
   text-transform: uppercase;
   font-size: 15px;
 }
-
 #buy-tickets:hover {
   cursor: pointer;
   opacity: 0.4;
@@ -473,7 +432,6 @@ header.modal-header {
   text-align: right;
   letter-spacing: -1px;
 }
-
 .modal-footer a {
   color: #2196F3;
 }
@@ -481,29 +439,24 @@ header.modal-header {
 @-webkit-keyframes modalFadeIn {
   from {
     opacity: 0.2;
-    -webkit-transform: translateY(-400px);
-            transform: translateY(-400px);
+    transform: translateY(-400px);
   }
   to {
     opacity: 1;
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
 }
 
 @keyframes modalFadeIn {
   from {
     opacity: 0.2;
-    -webkit-transform: translateY(-400px);
-            transform: translateY(-400px);
+    transform: translateY(-400px);
   }
   to {
     opacity: 1;
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
 }
-
 .contact-content {
   margin-top: 48px;
 }
@@ -513,7 +466,7 @@ header.modal-header {
   line-height: 1.5;
 }
 
-.contact-info i[class*="ti-"] {
+.contact-info i[class*=ti-] {
   width: 30px;
   display: inline-block;
 }
@@ -540,12 +493,10 @@ header.modal-header {
 #footer .social {
   font-size: 24px;
 }
-
 #footer .social a {
   color: rgba(0, 0, 0, 0.6);
   text-decoration: none;
 }
-
 #footer .social a:hover {
   color: rgba(0, 0, 0, 0.4);
 }
@@ -554,13 +505,10 @@ header.modal-header {
   margin-top: 15px;
   color: rgba(0, 0, 0, 0.6);
 }
-
 #footer .copyright a {
   margin-top: 15px;
   color: rgba(0, 0, 0, 0.6);
 }
-
 #footer .copyright a:hover {
   color: rgba(0, 0, 0, 0.4);
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

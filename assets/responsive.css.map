@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,QAAQ;AAKR,YAAY;AAKZ,YAAY;AACZ,MAAM,EAAE,SAAS,EAAE,KAAK;EACpB,AAAA,IAAI,GAAG,EAAE,CAAC;IACN,OAAO,EAAE,KAAK;GACjB",
-    "sources": [
-        "responsive.scss"
-    ],
-    "names": [],
-    "file": "responsive.css"
-}
+{"version":3,"sources":["responsive.scss","responsive.css"],"names":[],"mappings":"AAAA,OAAA;AAKA,WAAA;AAKA,WAAA;AACA;EACI;IACI,cAAA;ECPN;AACF","file":"responsive.css"}
